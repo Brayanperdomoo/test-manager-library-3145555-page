@@ -1,20 +1,9 @@
 # Manager Library Public Page
 
-Static public presentation site for Manager Library. It does not call the API and must remain usable when the backend is unavailable.
+Static, responsive English presentation site for the library. It works without the API and contains no private member data.
 
-## Requirements
+## Preview
 
-- English content
-- Responsive layout for mobile and desktop
-- No API dependency or private member data
-- Static deployment
+Open `index.html` directly in a browser or run `docker build -t manager-library-page .` and `docker run --rm -p 8082:80 manager-library-page`.
 
-## Development status
-
-Implementation is in progress. The page presents the library and its public-facing information; operational workflows belong in the React app.
-
-## Related repositories
-
-- [Product specification](https://github.com/code-sena/test-manager-library-3145555-docs)
-- `test-manager-library-3145555-app` — authenticated operations interface
-- `test-manager-library-3145555-api` — Laravel backend
+The site introduces the collection and community. Staff workflows belong in the [React app](https://github.com/code-sena/test-manager-library-3145555-app); product rules live in the [specification](https://github.com/code-sena/test-manager-library-3145555-docs).
